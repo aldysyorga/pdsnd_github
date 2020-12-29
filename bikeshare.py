@@ -228,6 +228,7 @@ def main():
             else:
                 print('Invalid input')
 
+	""" Prompt if the user wants to restart the script """
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
