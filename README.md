@@ -8,7 +8,9 @@ Explore US bikeshare data
 Interactive data analysis of US bikeshare data using python.
 
 Input: .csv file
+
 User Input: City, month and day selection
+
 Output: Information of:
 - Most common month
 - Most common day of week 
