@@ -22,7 +22,7 @@ def get_filters():
         city = input('Please input desired city: \nAvailable option: chicago, new york city, washington\n')
         if city.lower() in cities:
             city = city.lower()
-            print('You have selected {}, processing...\n'.format(city.upper()))
+            print('You have selected {}, processing...\n'.format(city))
             break
         else:
             print('Unexpected input, please try again')
