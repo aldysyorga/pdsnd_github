@@ -22,7 +22,7 @@ def get_filters():
         city = input('Please input desired city: \nAvailable option: chicago, new york city, washington\n')
         if city.lower() in cities:
             city = city.lower()
-            print('You have selected {}, processing...\n'.format(city.upper()))
+            print('You have selected {}, processing...\n'.format(city))
             break
         else:
             print('Unexpected input, please try again')
@@ -32,7 +32,7 @@ def get_filters():
     while True:
         month = input('Please input desired month: \nAvailable option : all, january, february, march, april, may, june\n')
         if month.lower() in months:
-            print('You have selected {}, processing...\n'.format(month.upper()))
+            print('You have selected {}, processing...\n'.format(month))
             month = months.index(month.lower()) + 1
             break
         elif month.lower() == 'all':
